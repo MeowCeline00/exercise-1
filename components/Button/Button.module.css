@@ -1,0 +1,27 @@
+.buttons {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+  }
+  
+  .button {
+    background-color: var(--white); 
+    color: black;
+    border: 1px solid var(--grey);
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    display: inline-flex;
+    cursor: pointer;
+    font-family: 'Calibri', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: background-color 0.2s ease;
+    justify-content: center;
+    width: 300px;
+  }
+  
+  .logo {
+    width: 24px;
+    height: auto;
+  }

@@ -1,0 +1,19 @@
+.orContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+
+.horizontalLine {
+    flex-grow: 1;
+    height: 1px; 
+    background-color: var(--linegrey); 
+    margin: 0 10px; 
+}
+
+.orText {
+    padding: 0 5px;
+    background-color: var(--white); 
+    color: black;
+}
